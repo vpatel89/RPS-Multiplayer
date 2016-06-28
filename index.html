@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Rock Paper Scissor - Multiplayer</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<script src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/live/3.0/firebase.js"></script>
+</head>
+
+<body>
+	<div>
+		<div class="col-md-12">
+			<h1 id="gameTitle">Rock Paper Scissor</h1>
+		</div>
+	</div>
+
+	<div id="userSection">
+		<input type="text" id="userNameInput">
+		<button id="startButton">Start</button>
+	</div>
+
+	<div id="statusArea">
+		<h3 id="status"></h3>
+	</div>
+
+	<div id="gameArea">
+		<div id="player1Area" class="col-md-4">
+			<h1 id="player1NameDisplay">Waiting for Player 1...</h1>
+			<h3 id="player1Score"></h3>
+			<br>
+			<div id="rpsZone1">
+				<h2 id="p1Rock" class="rpsSelection"></h2>
+				<h2 id="p1Paper" class="rpsSelection"></h2>
+				<h2 id="p1Scissor" class="rpsSelection"></h2>
+			</div>
+		</div>
+
+		<div id="resultArea" class="col-md-4">
+			
+		</div>
+
+		<div id="player2Area" class="col-md-4">
+			<h1 id="player2NameDisplay">Waiting for Player 2...</h1>
+			<h3 id="player2Score"></h3>
+			<br>
+			<div id="rpsZone2">
+				<h2 id="p2Rock" class="rpsSelection"></h2>
+				<h2 id="p2Paper" class="rpsSelection"></h2>
+				<h2 id="p2Scissor" class="rpsSelection"></h2>
+			</div>
+		</div>
+	</div>
+
+	<div>
+		<!-- put textbox here	 -->
+	</div>
+
+	<script type="text/javascript" src="assets/javascript/app.js"></script>
+</body>
+</html>

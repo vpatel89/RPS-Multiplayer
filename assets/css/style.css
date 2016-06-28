@@ -1,0 +1,24 @@
+#gameTitle{
+	text-align: center;
+}
+
+#userSection,
+#statusArea{
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+#status{
+	margin: 0;
+}
+
+#gameArea{
+}
+
+#player1Area,
+#player2Area,
+#resultArea{
+	border: 10px solid;
+	height: 500px;
+	width: 33.33%;
+}
